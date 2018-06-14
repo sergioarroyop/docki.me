@@ -1,0 +1,7 @@
+stilliard/pure-ftpd         latest              e8981087bd49        3 weeks ago         532MB
+portainer/agent             <none>              f2bfc4972855        4 weeks ago         9.94MB
+mysql                       5.7                 0d16d0a97dd1        5 weeks ago         372MB
+httpd                       latest              fb2f3851a971        6 weeks ago         178MB
+portainer/portainer         latest              f6dd93561a5f        2 months ago        35MB
+traefik                     <none>              fde722950ccf        3 months ago        49.7MB
+morbz/docker-web-redirect   <none>              f973e37ed83a        10 months ago       19MB

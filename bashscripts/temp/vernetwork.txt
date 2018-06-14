@@ -1,0 +1,7 @@
+111f0a95a986        bridge                         bridge              local
+4018224938a6        docker_gwbridge                bridge              local
+528fb0bdfbd7        dockertestswarmboard_default   bridge              local
+81f040844e8f        host                           host                local
+lvr531tblzr0        ingress                        overlay             swarm
+850d2841868e        none                           null                local
+wncay9mdwali        rv_proxy                       overlay             swarm

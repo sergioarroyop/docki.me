@@ -1,0 +1,65 @@
+[
+    {
+        "Name": "rv_proxy",
+        "Id": "wncay9mdwalizqbcr7w8gnicj",
+        "Created": "2018-05-07T13:38:45.727623716+02:00",
+        "Scope": "swarm",
+        "Driver": "overlay",
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "10.10.10.0/24",
+                    "Gateway": "10.10.10.1"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "57062865303bc685e4d571e4da09ce3d52c2d295101682f5a8c8f819de30c89b": {
+                "Name": "portainer.1.ijxcbuxu5ag7ybmz98mjrkvlf",
+                "EndpointID": "b86e6b18809096077fc341940bb20a9950370a03e6b77bfd2d2985255724a6b7",
+                "MacAddress": "02:42:0a:0a:0a:cc",
+                "IPv4Address": "10.10.10.204/24",
+                "IPv6Address": ""
+            },
+            "95c703b743943a69620a3fde7872dd71775d87fc1747b9b6510fd36cccb65b57": {
+                "Name": "traefik_traefik.1.es9l871zc34uoeliyaarqxh1f",
+                "EndpointID": "6bbd50a2bb87e531dab32597a06cc1444dcb776639f9df7b98b34bfc5804ce51",
+                "MacAddress": "02:42:0a:0a:0a:81",
+                "IPv4Address": "10.10.10.129/24",
+                "IPv6Address": ""
+            },
+            "fad12daff0803a1285055e220482fa856f15e2872caf7d36e5d000d9909c691d": {
+                "Name": "redirection_serv.1.h50vtpnmu2sll3s2qav1jmnyp",
+                "EndpointID": "272e9ecc8ddc749844a0b567c1239612d84f99c415db4b2e958f9aea2e4ade87",
+                "MacAddress": "02:42:0a:0a:0a:c4",
+                "IPv4Address": "10.10.10.196/24",
+                "IPv6Address": ""
+            }
+        },
+        "Options": {
+            "com.docker.network.driver.overlay.vxlanid_list": "4111",
+            "encrypted": ""
+        },
+        "Labels": {},
+        "Peers": [
+            {
+                "Name": "519f1e40dfb2",
+                "IP": "94.177.161.68"
+            },
+            {
+                "Name": "da02ef128359",
+                "IP": "80.211.230.84"
+            }
+        ]
+    }
+]

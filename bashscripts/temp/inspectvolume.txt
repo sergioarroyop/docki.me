@@ -1,0 +1,11 @@
+[
+    {
+        "CreatedAt": "2018-05-02T20:47:03+02:00",
+        "Driver": "local",
+        "Labels": {},
+        "Mountpoint": "/var/lib/docker/volumes/portainer_data/_data",
+        "Name": "portainer_data",
+        "Options": {},
+        "Scope": "local"
+    }
+]

@@ -1,0 +1,4 @@
+fad12daff080        morbz/docker-web-redirect:latest   "/bin/sh -c /start.sh"   3 weeks ago         Up 3 weeks          80/tcp                   redirection_serv.1.h50vtpnmu2sll3s2qav1jmnyp
+c49881af7562        mysql:5.7                          "docker-entrypoint.s…"   3 weeks ago         Up 3 weeks          0.0.0.0:3306->3306/tcp   db_panel.ukfr761vq4jowqumk5kxnt6xh.rj1ek63gjp9q4k11aeeak86o0
+57062865303b        portainer/portainer:latest         "/portainer -H unix:…"   5 weeks ago         Up 5 weeks          9000/tcp                 portainer.1.ijxcbuxu5ag7ybmz98mjrkvlf
+95c703b74394        traefik:1.5                        "/traefik --docker -…"   5 weeks ago         Up 5 weeks          80/tcp                   traefik_traefik.1.es9l871zc34uoeliyaarqxh1f

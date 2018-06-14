@@ -1,0 +1,4 @@
+redirection         1
+redirectionpanel    1
+traefik             1
+wordpress           2

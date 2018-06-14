@@ -1,0 +1,134 @@
+nav.navbar {
+    background-color: #495057;
+
+}
+
+.nav-top {
+    background-color: #495057;
+    position: fixed;
+    z-index: 99;
+}
+
+.BarraSuperior {
+    background-color: #495057;
+}
+
+#Expand {
+    background-color: #495057;
+    position: fixed;
+    left: 0;
+    width: 76px;
+    min-height: 100%;
+    margin-top: 57px;
+}
+
+.navbarSide > a {
+    margin-top: 5px;
+    text-align: justify;
+    color: white;
+}
+
+.navbarSide > a:hover {
+    background-color: white;
+    margin-top: 5px;
+    text-align: justify;
+    color: #495057;
+}
+
+/* MOBILE NAVBAR */
+
+/************************************************/
+
+.navbar-side {
+    height: 100%;
+    width: 40%;
+    position: fixed;
+    top: 0;
+
+    /*Modify right value for left-side 0 and for right-side 100% aprox.*/
+    right: 100%;
+    padding: 0;
+    list-style: none;
+    background-color: #495057;
+    overflow-y: scroll;
+    z-index: 1000;
+}
+
+.navbar-side-item {
+    padding: 1.5rem 0;
+    margin: 0;
+    border-bottom: 2px solid #ccc;
+    height: 5rem;
+}
+
+.side-link {
+    padding-left: 2rem;
+}
+
+.navbar-side {
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+    /*Modify this value if you want more transition of your NavBar */
+    transform: translateX(0%);
+    -webkit-transition: 300ms ease;
+
+    /* Time it takes for NavBar to return*/
+    transition: 300ms ease;
+}
+
+.reveal {
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+    -webkit-transition: 300ms ease;
+
+
+    /* Time it takes for NavBar to turn*/
+    transition: 300ms ease;
+}
+
+/*This it's the Layout that be created when you turn the NavBar*/
+
+.overlay {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    background-color: #ccc;
+    opacity: 0.6;
+    z-index: 990;
+}
+
+.navbar-side {
+    @include media-breakpoint-up(xs) {
+        width: 85%;
+    }
+    @include media-breakpoint-up(sm) {
+        width: 50%;
+    }
+    @include media-breakpoint-up(md) {
+        width: 25%;
+    }
+}
+
+@media (max-width: 377px){
+    
+    .navbar-side{
+        width: 75px;
+    }
+    
+    #LinkText{
+        display: none;
+    }
+    
+    .navbar-side>li>a>i{
+        font-size: 220%;
+    }
+    
+}

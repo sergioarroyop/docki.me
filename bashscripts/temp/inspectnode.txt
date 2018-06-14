@@ -1,0 +1,100 @@
+[
+    {
+        "ID": "ba3hb2xl5e6nb83dkru0efgl8",
+        "Version": {
+            "Index": 237415
+        },
+        "CreatedAt": "2018-04-15T14:24:41.978164488Z",
+        "UpdatedAt": "2018-06-14T08:22:45.461982401Z",
+        "Spec": {
+            "Labels": {},
+            "Role": "worker",
+            "Availability": "active"
+        },
+        "Description": {
+            "Hostname": "SW-WK3",
+            "Platform": {
+                "Architecture": "x86_64",
+                "OS": "linux"
+            },
+            "Resources": {
+                "NanoCPUs": 1000000000,
+                "MemoryBytes": 1031016448
+            },
+            "Engine": {
+                "EngineVersion": "18.03.0-ce",
+                "Plugins": [
+                    {
+                        "Type": "Log",
+                        "Name": "awslogs"
+                    },
+                    {
+                        "Type": "Log",
+                        "Name": "fluentd"
+                    },
+                    {
+                        "Type": "Log",
+                        "Name": "gcplogs"
+                    },
+                    {
+                        "Type": "Log",
+                        "Name": "gelf"
+                    },
+                    {
+                        "Type": "Log",
+                        "Name": "journald"
+                    },
+                    {
+                        "Type": "Log",
+                        "Name": "json-file"
+                    },
+                    {
+                        "Type": "Log",
+                        "Name": "logentries"
+                    },
+                    {
+                        "Type": "Log",
+                        "Name": "splunk"
+                    },
+                    {
+                        "Type": "Log",
+                        "Name": "syslog"
+                    },
+                    {
+                        "Type": "Network",
+                        "Name": "bridge"
+                    },
+                    {
+                        "Type": "Network",
+                        "Name": "host"
+                    },
+                    {
+                        "Type": "Network",
+                        "Name": "macvlan"
+                    },
+                    {
+                        "Type": "Network",
+                        "Name": "null"
+                    },
+                    {
+                        "Type": "Network",
+                        "Name": "overlay"
+                    },
+                    {
+                        "Type": "Volume",
+                        "Name": "local"
+                    }
+                ]
+            },
+            "TLSInfo": {
+                "TrustRoot": "-----BEGIN CERTIFICATE-----\nMIIBajCCARCgAwIBAgIUNEzPcz9Dn7BG4LKKcBhaCAH6OnEwCgYIKoZIzj0EAwIw\nEzERMA8GA1UEAxMIc3dhcm0tY2EwHhcNMTgwNDE1MTIzMzAwWhcNMzgwNDEwMTIz\nMzAwWjATMREwDwYDVQQDEwhzd2FybS1jYTBZMBMGByqGSM49AgEGCCqGSM49AwEH\nA0IABJJVjWHpbmsYhHTcvNPBLb+RQtwgjEZel+vpUczNVHojGVZKKIwExIZQjmG3\ndTG+KjZpupHoVFYdlcMoTeQosYWjQjBAMA4GA1UdDwEB/wQEAwIBBjAPBgNVHRMB\nAf8EBTADAQH/MB0GA1UdDgQWBBRTfRyrz5rB6e0mnC0uSniYAhMCGTAKBggqhkjO\nPQQDAgNIADBFAiBqvP/WxhKlnnweq4E9QRPJgMNMJraRhKWnJRM8sElMCgIhAJkB\n4YcOnVVMNwdPaxkqGkoKSOEf7XOZXSb/vsKNOqEz\n-----END CERTIFICATE-----\n",
+                "CertIssuerSubject": "MBMxETAPBgNVBAMTCHN3YXJtLWNh",
+                "CertIssuerPublicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEklWNYeluaxiEdNy808Etv5FC3CCMRl6X6+lRzM1UeiMZVkoojATEhlCOYbd1Mb4qNmm6kehUVh2VwyhN5CixhQ=="
+            }
+        },
+        "Status": {
+            "State": "ready",
+            "Addr": "212.237.6.103"
+        }
+    }
+]

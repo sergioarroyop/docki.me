@@ -1,0 +1,23 @@
+.tooltip.top,
+.tooltip-inner {
+    background-color: black;
+    color: white;
+    width: 110px;
+    font-size: 16px;
+}
+
+.tooltip.bs-tooltip-right .arrow:before {
+    border-right-color: black !important;
+}
+
+.tooltip.bs-tooltip-left .arrow:before {
+    border-right-color: black !important;
+}
+
+.tooltip.bs-tooltip-bottom .arrow:before {
+    border-right-color: black !important;
+}
+
+.tooltip.bs-tooltip-top .arrow:before {
+    border-right-color: black !important;
+}

@@ -1,0 +1,8 @@
+8d2yoxj5u0hs        db_panel                global              4/4                 mysql:5.7                          
+g983lqzqusrz        portainer               replicated          1/1                 portainer/portainer:latest         
+n0xu70xndvfj        prueba                  replicated          1/1                 nginx:latest                       
+wceqjrwve20e        redirection_serv        replicated          1/1                 morbz/docker-web-redirect:latest   
+k5vohgomhzrt        redirectionpanel_serv   replicated          1/1                 morbz/docker-web-redirect:latest   
+mnwyag3zfwi8        traefik_traefik         replicated          1/1                 traefik:1.5                        *:80->80/tcp, *:443->443/tcp, *:8080->8080/tcp
+oi56uze3ffqc        wordpress_db            replicated          1/1                 mysql:5.7                          
+wnx3chwk07d0        wordpress_wordpress     replicated          0/1                 wordpress:latest                   

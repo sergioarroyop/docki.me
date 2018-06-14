@@ -1,0 +1,105 @@
+[
+    {
+        "Id": "sha256:f973e37ed83aa85ad72bb3ef0a748dc62e98064872a6cb67abb50b0f07296be1",
+        "RepoTags": [],
+        "RepoDigests": [
+            "morbz/docker-web-redirect@sha256:4d25eeb103ae650aef8167b211275301fa14547fbedd4ab363266c9816805668"
+        ],
+        "Parent": "",
+        "Comment": "",
+        "Created": "2017-08-03T16:49:57.736269567Z",
+        "Container": "1de525bf278fca38f22bdf5e0f342e1ced4e020534ba8f1fd5b0cf41d454b538",
+        "ContainerConfig": {
+            "Hostname": "3009dd4da609",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "80/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "NGINX_VERSION=1.13.3"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "#(nop) ",
+                "CMD [\"/bin/sh\" \"-c\" \"/start.sh\"]"
+            ],
+            "ArgsEscaped": true,
+            "Image": "sha256:249ba15456e06d27c1109875c48ef157d789d1ca740526ec7479ebf187fb6de1",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": [],
+            "Labels": {},
+            "StopSignal": "SIGTERM"
+        },
+        "DockerVersion": "17.03.1-ee-2",
+        "Author": "",
+        "Config": {
+            "Hostname": "3009dd4da609",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "80/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "NGINX_VERSION=1.13.3"
+            ],
+            "Cmd": [
+                "/bin/sh",
+                "-c",
+                "/start.sh"
+            ],
+            "ArgsEscaped": true,
+            "Image": "sha256:249ba15456e06d27c1109875c48ef157d789d1ca740526ec7479ebf187fb6de1",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": [],
+            "Labels": {},
+            "StopSignal": "SIGTERM"
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 18960849,
+        "VirtualSize": 18960849,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/9f6f1b179b7c55c576d2b29a43499bb4a081f62d6af882a4e63340a5883101f8/diff:/var/lib/docker/overlay2/b131deb1844d4371d41e192a6c874f62dfc05d107e59e904ce393bfe92556e93/diff:/var/lib/docker/overlay2/8e9c4ca7d7ee7b230baa98c1289c841bad2401c5a2771642a8c2827401cf9405/diff:/var/lib/docker/overlay2/35ec836a395d318b0bdf57efce42092129a255777fff795ba917547c99d1340c/diff:/var/lib/docker/overlay2/1adba6f2e258f6cae6d10fc9d6d1523a1c4c236bf7fc5d21495f583dadff2b70/diff",
+                "MergedDir": "/var/lib/docker/overlay2/12a41e5d97524ccf52ceaf9de7f8397bef712e6d372e0a0be298cd29b8147056/merged",
+                "UpperDir": "/var/lib/docker/overlay2/12a41e5d97524ccf52ceaf9de7f8397bef712e6d372e0a0be298cd29b8147056/diff",
+                "WorkDir": "/var/lib/docker/overlay2/12a41e5d97524ccf52ceaf9de7f8397bef712e6d372e0a0be298cd29b8147056/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:040fd7841192c4f283485d5c7817f4508a774a8fabef8fc265c87f4d2a2ae635",
+                "sha256:c0326cfaf747aa2703fa448edf24f9638ba7e6b36dda7f7a97a53039b5a8c83b",
+                "sha256:9d93ce18f76eb7e55938bc943541010a83227ff6081fa39a168b4c9a21bfed03",
+                "sha256:be269c61895ec0869f6ce83c4fcf22f5b343cfe1c31d69959a6e49af17329b56",
+                "sha256:b13899536267d1d67f189cce97fdfcea6dfe6b4679bbdc594bbd5cefcc6de581",
+                "sha256:bf6e892e58f5fc30c110575292c88bcbdf5d0b481c945e6f7f6c2bf00f33a6f2"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "0001-01-01T00:00:00Z"
+        }
+    }
+]

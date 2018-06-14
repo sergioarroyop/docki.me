@@ -1,0 +1,55 @@
+-- MySQL dump 10.13  Distrib 5.7.17, for Win64 (x86_64)
+--
+-- Host: 192.168.1.150    Database: swarmboard_db
+-- ------------------------------------------------------
+-- Server version	5.5.58-0+deb7u1
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `imagelist`
+--
+
+DROP TABLE IF EXISTS `imagelist`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `imagelist` (
+  `fecha` varchar(100) NOT NULL DEFAULT '',
+  `ImageID` varchar(100) NOT NULL DEFAULT '',
+  `Repository` varchar(100) DEFAULT NULL,
+  `Created` varchar(100) DEFAULT NULL,
+  `Size` varchar(100) DEFAULT NULL,
+  `Version` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`ImageID`,`fecha`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `imagelist`
+--
+
+LOCK TABLES `imagelist` WRITE;
+/*!40000 ALTER TABLE `imagelist` DISABLE KEYS */;
+INSERT INTO `imagelist` VALUES ('17:51:53 05/13/18','2b923402399b1b5ba83fd4d65bf4b52a6d7878402896d69a989872176dfcce72','php','2018-05-05T10:11:53.920366557Z','317992616 Bytes','<none>'),('17:51:53 05/13/18','56a9554003c133dbab8be9f8d348a8ebdf5da3a0f0ca15afa882136a88b33ffa','hello-world','2018-04-12T08:50:42.760558322Z','1688 Bytes','latest'),('17:51:53 05/13/18','617e6775356ec518d7aede9131cc4863e012ab2b60eb9b443228d6212ee1f218','httpd','2018-04-28T09:27:33.890145436Z','164425846 Bytes','latest'),('17:51:53 05/13/18','8c5372191e57652d8b5d37051234dcac7d0e2e7d3a5637fb18aa6dfa7c1f8d54','hypriot/rpi-mysql','2017-10-29T13:57:07.011140999Z','208642101 Bytes','latest'),('17:51:53 05/13/18','bc573d4c0bd9a5c5f3765e34f8d043e41e77a13c4cbd05ce486180f32585d718','nginx','2018-04-28T13:37:11.647805056Z','88047729 Bytes','latest');
+/*!40000 ALTER TABLE `imagelist` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2018-05-13 19:58:37

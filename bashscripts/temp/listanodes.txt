@@ -1,0 +1,4 @@
+ukfr761vq4jowqumk5kxnt6xh *   SW-MG               Ready               Active              Leader              18.03.0-ce
+vtag03do20i5r55dbssadbfq2     SW-WK               Ready               Active                                  18.03.1-ce
+m284av0mdy9knsibt965ps50l     SW-WK2              Ready               Active                                  18.03.1-ce
+ba3hb2xl5e6nb83dkru0efgl8     SW-WK3              Ready               Active                                  18.03.0-ce
